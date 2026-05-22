@@ -1,0 +1,5 @@
+fuse-archive (1.2.0) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- François Degros <fdegros@chromium.org>  Fri, 21 May 2026 14:40:51 +0200

@@ -1,0 +1,12 @@
+Source: fuse-archive
+Maintainer: François Degros <fdegros@chromium.org>
+Section: misc
+Priority: optional
+Standards-Version: 1.0.0
+Build-Depends: debhelper (>= 11), build-essential, libssh-dev, zlib1g-dev
+
+Package: fuse-archive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fuse3
+Description: A tool to mount archive file to a position.
+ FUSE file system for archives and compressed files (ZIP, RAR, 7Z, ISO, TGZ, XZ...)
